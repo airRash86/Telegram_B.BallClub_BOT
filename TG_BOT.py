@@ -31,7 +31,7 @@ bot = telebot.TeleBot(TOKEN)
 
 
 
-###---------Unsubscribe
+###---------unsubscribe
 @bot.message_handler(commands=['OTPISKA'])
 def OTPISKA(message):
     with sq.connect('PATH_To_DB_and_nameDB')as con:
@@ -46,7 +46,7 @@ def OTPISKA(message):
             BUTT_OTPISKA.add(agree_OTPISKA, STAY_HERE_BUTT)
             bot.send_message(message.chat.id, f'''❓Отказаться от получения уведомлений о новостях в Дорогомилово-баскет?
 ''', reply_markup=BUTT_OTPISKA)
-### --------END Unsubscribe
+### --------END unsubscribe
 
 ###---Взятие номера
 @bot.message_handler(commands=['number'])
