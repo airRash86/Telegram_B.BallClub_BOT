@@ -15,21 +15,6 @@ bot = telebot.TeleBot(TOKEN)
 ###https://t.me/rash_test_bot
 ###@Dorogomil-BASKET_BOT
 
-#✅
-#🤝
-#⚠️
-#🏀
-#⚡
-#➡️
-#ℹ️
-#⤵️
-#⛔
-#❓
-#↪️
-#⭕
-#🔍  
-
-
 
 ###---------Unsubscribe
 @bot.message_handler(commands=['OTPISKA'])
