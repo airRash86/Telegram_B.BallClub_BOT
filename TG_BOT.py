@@ -184,9 +184,8 @@ def FOTO_1_2_3_4_5(call, arg):
 ###---Эта секция для общего ping`а всех работающих ботов
 @bot.channel_post_handler()
 def hello(message):
-    if message.chat.id == -1001856957974  and 'TOTAL' in message.text:
-        send("Первый (Dorogomil-Bas) 1960073417 ✅ONLINE", TOKEN)
-        # bot.reply_to(message, "✅ВторойAFTERdel_5288033405_ONLINE")
+    if message.chat.id == idTgChannel and 'TOTAL' in message.text:
+        send("Бот Dorogomil-Bas ✅ONLINE", TOKEN)
 ###---END Эта секция для общего ping`а всех работающих ботов
     
 ###---Проверка на наличие id_TG в БД
