@@ -5,8 +5,8 @@ import os
 import sys
 import time
 
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
-from BOT_checker_debuger.Temp_addiTional_For_BOTChecker import send
+sys.path.insert(1, os.path.join(sys.path[0], '..')) #Данная конструкция для возможности импорта из your_dir (след. стр.) функ-ю send
+from your_dir import send
 
 TOKEN = <your_TOKEN>
 
