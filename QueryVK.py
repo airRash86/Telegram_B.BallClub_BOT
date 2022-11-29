@@ -10,9 +10,7 @@ import sys
 sys.path.insert(1, os.path.join(sys.path[0], '..')) #Данная конструкция для возможности импорта из your_dir (след. стр.) функ-и send
 from your_dir  import send
 
-#🔍
-#✅
-#🖊️
+
 
 #https://t.me/your_BOT_FOR_BOT
 #@your_BOT_FOR_BOT
